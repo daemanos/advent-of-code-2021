@@ -1,7 +1,5 @@
 module Main where
 
-import qualified Data.Text as Text
-
 solve :: [Int] -> Int
 solve [_] = 0
 solve (x:xs) = increases
